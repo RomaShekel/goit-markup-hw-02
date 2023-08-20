@@ -43,9 +43,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.navigation:hover {
-    color: #404bbf;
-}
+.navigation:hover
 .navigation:focus {
     color: var(--ocean, #404bbf);
 }
@@ -62,9 +60,7 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-address:hover {
-    color: #404bbf;
-}
+address:hover
 address:focus {
     color: var(--ocean, #404bbf);
 }
