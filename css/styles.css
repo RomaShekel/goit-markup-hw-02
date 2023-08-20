@@ -56,11 +56,12 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-address a:hover,
-address a:focus {
+address:hover{
     color: var(--ocean, #404bbf);
 }
-
+address:focus {
+    color: var(--ocean, #404bbf);
+}
 .main-section {
     background-color: var(--navyblue, #2E2F42);
     color: var(--white, #FFF);
@@ -89,13 +90,6 @@ address a:focus {
     background-color: var(--ocean, #404BBF);
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip:rect(0 0 0 0);
