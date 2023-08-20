@@ -42,17 +42,17 @@ a {
     text-decoration: none;
 }
 
-.nav-list {
-    color: var(--navyblue, #2E2F42);
+.navigation {
+    color: var(--navyblue, #2e2f42);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-
 .nav-link {
-    color: #2e2f42;
+    color: var(--navyblue, #2e2f42);
 }
+
 .address a {
     color: var(--slate, #434455);
     font-family: Roboto;
@@ -62,6 +62,7 @@ a {
     letter-spacing: 0.32px;
     font-style: normal;
 }
+
 .main-section {
     background-color: var(--navyblue, #2E2F42);
     color: var(--white, #FFF);
@@ -91,20 +92,20 @@ a {
 .our-team {
     background-color: var(--cloud, #F4F4FD);
 }
-.team {
+.team-list {
     background-color: #FFFFFF
 }
 .team p {
     font-size: 16px;
 }
-.product-designer-list h3 {
+.team-member {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.product-designer-list p {
+.post {
     color: var(--slate, #434455);
     font-size: 16px;
     font-weight: 400;
