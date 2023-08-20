@@ -42,18 +42,18 @@ a {
     text-decoration: none;
 }
 
-.navigation {
+.nav-list {
     color: var(--navyblue, #2E2F42);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.link-studio {
-    color: #434455;
+.nav-link {
+    color: #2e2f42;
 }
-.address {
+.address a {
     color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
@@ -76,7 +76,6 @@ a {
 }
 
 .button {
-    font-family: 'Roboto', sans-serif;
     color: var(--white, #FFF);
     background: var(--iris, #4D5AE5);
     cursor: pointer;
@@ -97,6 +96,20 @@ a {
 }
 .team p {
     font-size: 16px;
+}
+.product-designer-list h3 {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.product-designer-list p {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 .upper-logo{
