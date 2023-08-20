@@ -56,9 +56,9 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-address:hover,
-address:focus {
-    color: var(--ocean, #404BBF);
+address a:hover,
+address a:focus {
+    color: var(--ocean, #404bbf);
 }
 
 .main-section {
@@ -129,7 +129,7 @@ address:focus {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+     line-height: 1.5;
     letter-spacing: 0.4px;
 }
 .our-portfolio-text {
@@ -137,7 +137,7 @@ address:focus {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em
 }
 
 .upper-logo{
