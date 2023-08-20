@@ -43,8 +43,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.navigation:hover
-.navigation:focus {
+.nav-link:hover
+.nav-link:focus {
     color: var(--ocean, #404bbf);
 }
 .nav-link {
