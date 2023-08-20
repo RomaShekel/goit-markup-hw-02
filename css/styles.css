@@ -11,12 +11,6 @@ body {
     letter-spacing: 0.32px;
 }
 
-.address:hover,
-.address:focus {
-    color: var(--ocean, #404BBF);
-}
-
-
 h2 {
     color: var(--navyblue, #2E2F42);
     text-align: center;
@@ -54,13 +48,17 @@ a {
 }
 
 .address {
+    font-style: normal;
     color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    font-style: normal;
+}
+address:hover,
+address:focus {
+    color: var(--ocean, #404BBF);
 }
 
 .main-section {
@@ -77,10 +75,10 @@ a {
 }
 
 .button {
+    cursor: pointer;
     font-family: "Roboto", sans-serif;
     color: var(--white, #FFF);
     background: var(--iris, #4D5AE5);
-    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -121,6 +119,20 @@ a {
     letter-spacing: 0.4px;
 }
 .post {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.our-portfolio-title {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.our-portfolio-text {
     color: var(--slate, #434455);
     font-size: 16px;
     font-weight: 400;
