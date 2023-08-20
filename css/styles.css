@@ -43,6 +43,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+.navigation:hover,
+.navigation:focus {
+    color: var(--ocean, #404bbf);
+}
 .nav-link {
     color: var(--navyblue, #2e2f42);
 }
@@ -56,9 +60,7 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-address:hover{
-    color: var(--ocean, #404bbf);
-}
+address:hover
 address:focus {
     color: var(--ocean, #404bbf);
 }
@@ -123,7 +125,7 @@ address:focus {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-     line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .our-portfolio-text {
